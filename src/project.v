@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_Madd_Ring_Osc (
+module tt_um_CS_Madd_Ring_Osc (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
 //    input  wire       VAPWR,    // 3.3v power supply
