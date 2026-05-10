@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Current Starved Ring Oscillator"      # Project title
+  title:        "CSRO with 8-bit DAC"      # Project title
   author:       "Luca Maddison"      # Your name
   discord:      "madd5159"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Voltage controlled ring oscillator"      # One line description of what your project does
+  description:  "Voltage controlled ring oscillator with 8-bit DAC and analog input"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -25,14 +25,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "DAC_bit0"
+  ui[1]: "DAC_bit1"
+  ui[2]: "DAC_bit2"
+  ui[3]: "DAC_bit3"
+  ui[4]: "DAC_bit4"
+  ui[5]: "DAC_bit5"
+  ui[6]: "DAC_bit6"
+  ui[7]: "DAC_bit7"
 
   # Outputs
   uo[0]: ""
@@ -45,7 +45,7 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
+  uio[0]: "DAC_enable"
   uio[1]: ""
   uio[2]: ""
   uio[3]: ""

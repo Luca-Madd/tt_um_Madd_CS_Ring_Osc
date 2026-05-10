@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Vctrl ranging from 0 to 1.8V  can change frequency of ring oscillator output
+Ring oscillator frequency can be changed by either varying Vctrl or leaving it open and using the DAC (Vmax - 1.8V). DAC_enable pin must be held high
 
 ## How to test
 
-Vary voltage of Vctrl pin and measure frequency of output
+Vary voltage of Vctrl pin and measure frequency of output. Change bits of DAC and measure frequency output
 
 ## External hardware
 
